@@ -1,0 +1,18 @@
+Árvores binárias de busca
+Assim como árvores binárias generalizam a ideia de listas encadeadas, árvores binárias de busca (= binary search trees = BSTs) generalizam a ideia de listas encadeadas crescentes.
+
+
+a definição de uma arvore binaria é uma definção recursiva e é composta por um unico nó raiz, que por sua vez nenhum pode ter, nenhum, um ou até dois  no maximos filhos, aonde seus filhos tambem são arvore binaria.
+
+
+
+
+Regra para insersão de um novo elemento:
+
+1- se ainda não há nó raiz, entao o novo elemento será o proprío nó raiz
+
+2 se há um nó raiz, entao compare o novo elemento com o nó raiz:
+a) caso o novo elemento seja menor que o elemento do nó raiz, entao o novo elemento é inserido na sub-arvore da esquerda.
+b) caso o novo elemento seja meior que o nó da raiz, entao o novo elemento é inserido na sub árvore da direita
+
+
